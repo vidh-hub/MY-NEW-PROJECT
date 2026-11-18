@@ -1,0 +1,494 @@
+[
+  {
+    "id": "kmut",
+    "name_ta": "கலைஞர் மகளிர் உரிமைத் திட்டம்",
+    "name_en": "Kalaignar Magalir Urimai Thogai (TN)",
+    "category_ta": "பெண்கள் நலம்",
+    "category_en": "Women's welfare",
+    "tagline_ta": "தகுதியுள்ள குடும்பத் தலைவிக்கு மாதம் ₹1,000 உரிமைத் தொகை",
+    "tagline_en": "₹1,000 per month for an eligible woman head of household",
+    "benefit_ta": [
+      "ஆண்டுக்கு ₹12,000 (மாதம் ₹1,000) உரிமைத் தொகை நேரடியாக வங்கிக் கணக்கில் செலுத்தப்படுகிறது."
+    ],
+    "benefit_en": [
+      "₹12,000 a year (₹1,000 per month) paid directly into the beneficiary's bank account."
+    ],
+    "who_ta": "தமிழ்நாட்டில் குடும்ப அட்டை உள்ள தகுதியுள்ள குடும்பத்தில் 21 வயது நிரம்பிய பெண் ஒருவர் (குடும்பத் தலைவி).",
+    "who_en": "A woman aged 21 or above in an eligible Tamil Nadu family with a ration card (one beneficiary per family).",
+    "eligibility_ta": [
+      "குடும்ப ஆண்டு வருமானம் ₹2.5 லட்சத்திற்குக் குறைவாக இருக்க வேண்டும்.",
+      "நன்செய் நிலம் 5 ஏக்கருக்குக் குறைவு அல்லது புன்செய் நிலம் 10 ஏக்கருக்குக் குறைவு.",
+      "வீட்டு மின்சார பயன்பாடு ஆண்டுக்கு 3,600 யூனிட்டிற்குக் குறைவு.",
+      "ஆதார் எண்ணுடன் இணைக்கப்பட்ட வங்கிக் கணக்கும் குடும்ப அட்டையும் தேவை."
+    ],
+    "eligibility_en": [
+      "Family annual income below ₹2.5 lakh.",
+      "Less than 5 acres of irrigated land or less than 10 acres of rainfed land.",
+      "Household electricity use below 3,600 units a year.",
+      "A bank account linked to Aadhaar and a valid ration card are required."
+    ],
+    "exclusions_ta": [
+      "குடும்பத்தில் அரசு ஊழியர் அல்லது அரசு ஓய்வூதியம் பெறுபவர் இருப்பது.",
+      "வருமான வரி செலுத்துபவர்கள் அல்லது ₹50 லட்சத்திற்கு மேல் வருமானம் உள்ள GST தொழில்.",
+      "சொந்த பயன்பாட்டிற்கு கார் / ஜீப் / டிராக்டர் போன்ற நான்கு சக்கர வாகனம்."
+    ],
+    "exclusions_en": [
+      "A family member is a government employee or draws a government pension.",
+      "Income-tax payers, or a business with GST turnover above ₹50 lakh.",
+      "Ownership of a four-wheeler such as a car, jeep or tractor for personal use."
+    ],
+    "documents_ta": [
+      "குடும்ப அட்டை",
+      "ஆதார் எண்ணுடன் இணைக்கப்பட்ட வங்கிக் கணக்கு விவரம்",
+      "பயனாளியின் கைபேசி எண் (SMS நிலை அறிவிப்புக்கு)"
+    ],
+    "documents_en": [
+      "Ration card",
+      "Bank account linked to Aadhaar",
+      "Registered mobile number (for status SMS)"
+    ],
+    "apply_steps_ta": [
+      "உங்கள் குடும்ப அட்டை உள்ள நியாயவிலைக் கடைக்கு உள்ள விண்ணப்ப முகாமிற்கு செல்லவும்.",
+      "இ-சேவை மையம் வழியாக விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+      "நிலை மற்றும் நிராகரிப்பு காரணத்தை kmut.tn.gov.in இல் ஆதார் எண்ணுடன் உள்நுழிந்து பார்க்கவும்.",
+      "நிராகரிப்பு SMS வந்த 30 நாட்களுக்குள் வருவாய் கோட்ட அலுவலரிடம் மேல்முறையீடு செய்யலாம்."
+    ],
+    "apply_steps_en": [
+      "Visit the application camp linked to your ration-card fair-price shop.",
+      "Submit the form through an e-Sevai centre.",
+      "Check status and rejection reason by logging in with Aadhaar at kmut.tn.gov.in.",
+      "Appeal to the Revenue Divisional Officer through an e-Sevai centre within 30 days of a rejection SMS."
+    ],
+    "apply_url": "https://kmut.tn.gov.in/",
+    "official_sources": [
+      {
+        "title": "KMUT — About the scheme (official)",
+        "url": "https://kmut.tn.gov.in/about-kmut.html"
+      },
+      {
+        "title": "KMUT — FAQ (official)",
+        "url": "https://kmut.tn.gov.in/faq.html"
+      },
+      {
+        "title": "KMUT — Login / status check (official)",
+        "url": "https://kmut.tn.gov.in/login.html"
+      }
+    ],
+    "caveat_ta": "இது எளிமையான வழிகாட்டி மட்டுமே. இறுதி தகுதியை வருவாய்த் துறை தீர்மானிக்கும். உங்கள் ஆதார் எண் அல்லது குடும்ப அட்டை விவரங்களை இங்கே உள்ளிட வேண்டாம்.",
+    "caveat_en": "This is a plain-language guide only. The Revenue Department decides final eligibility. Do not enter your Aadhaar or ration-card details here.",
+    "keywords_ta": [
+      "கலைஞர்",
+      "மகளிர்",
+      "உரிமை",
+      "தொகை",
+      "குடும்ப அட்டை",
+      "பெண்கள்",
+      "தமிழ்நாடு"
+    ],
+    "keywords_en": [
+      "kmut",
+      "kalaignar",
+      "urimai",
+      "women",
+      "tamil nadu",
+      "ration card",
+      "monthly"
+    ],
+    "last_verified": "2026-11-18"
+  },
+  {
+    "id": "pmkisan",
+    "name_ta": "பிரதமர் கிசான் சம்மான் நிதி",
+    "name_en": "PM Kisan Samman Nidhi",
+    "category_ta": "விவசாயம்",
+    "category_en": "Farmer support",
+    "tagline_ta": "சாகுபடி நிலம் உள்ள குடும்பத்திற்கு ஆண்டுக்கு ₹6,000 (3 தவணைகள்)",
+    "tagline_en": "₹6,000 a year in three instalments for landholding farmer families",
+    "benefit_ta": [
+      "ஆண்டுக்கு ₹6,000, மூன்று சம தவணைகளாக (தலா ₹2,000) நேரடியாக வங்கிக் கணக்கில்."
+    ],
+    "benefit_en": [
+      "₹6,000 per year in three equal instalments of ₹2,000, paid by direct bank transfer."
+    ],
+    "who_ta": "இந்தியாவில் சொந்தமாக சாகுபடி நிலம் உள்ள குடும்பம் (கணவர், மனைவி, சிறு குழந்தைகள்).",
+    "who_en": "A family (husband, wife and minor children) with cultivable land in their own name in India.",
+    "eligibility_ta": [
+      "நிலம் கிராம / மாவட்ட நிலப் பதிவில் உங்கள் பெயரில் இருக்க வேண்டும்.",
+      "நில உரிமை 01.02.2019 க்கு முன்னர் பதிவாகி இருக்க வேண்டும் (மரபுரிமை விதிவிலக்கு).",
+      "eKYC கட்டாயம் — pmkisan.gov.in அல்லது அருகிலுள்ள CSC மையத்தில் செய்யவும்.",
+      "நிலம் எந்த அளவு இருந்தாலும் தகுதி உள்ளது (2 ஏக்கர் வரம்பு நீக்கப்பட்டது)."
+    ],
+    "eligibility_en": [
+      "Cultivable land must be recorded in your name in state land records.",
+      "Land ownership must be recorded before 01.02.2019 (succession after death is an exception).",
+      "eKYC is mandatory — do it on pmkisan.gov.in or at a nearby CSC.",
+      "There is no land-size limit; the earlier 2-hectare cap was removed."
+    ],
+    "exclusions_ta": [
+      "நிறுவனங்கள் பெயரில் நிலம் (Institutional landholders).",
+      "கடந்த மதிப்பீட்டு ஆண்டு வருமான வரி செலுத்தியவர்கள்.",
+      "மாதம் ₹10,000 அல்லது அதற்கு மேல் ஓய்வூதியம் பெறுபவர்கள் (Multi-tasking/Group D தவிர).",
+      "அரசு ஊழியர்கள், மருத்துவர் / பொறியாளர் / வழக்கறிஞர் போன்ற பதிவுபெற்ற தொழில் வல்லுநர்கள்."
+    ],
+    "exclusions_en": [
+      "Institutional landholders.",
+      "People who paid income tax in the last assessment year.",
+      "Pensioners drawing ₹10,000 or more per month (except Multi-tasking/Group D staff).",
+      "Government employees and registered professionals such as doctors, engineers and lawyers."
+    ],
+    "documents_ta": [
+      "நிலப் பதிவு / பட்டா (நில உரிமை ஆவணம்)",
+      "ஆதார் எண் இணைக்கப்பட்ட வங்கிக் கணக்கு",
+      "கைபேசி எண் (OTP / eKYC உறுதிப்பாட்டிற்கு)"
+    ],
+    "documents_en": [
+      "Land record / patta (proof of cultivable land)",
+      "Bank account seeded with Aadhaar",
+      "Mobile number for OTP / eKYC"
+    ],
+    "apply_steps_ta": [
+      "pmkisan.gov.in → 'New Farmer Registration' என்பதைத் தேர்ந்தெடுக்கவும்.",
+      "நிலம் மற்றும் ஆதார் விவரங்களை நிரப்பி, வங்கிக் கணக்கை இணைக்கவும்.",
+      "eKYC ஐ ஆன்லைனில் (OTP) அல்லது CSC மையத்தில் முடிக்கவும்.",
+      "பணம் வரவில்லை எனில் 'Know Your Status' (KYS) இல் நிலையைப் பார்க்கவும்."
+    ],
+    "apply_steps_en": [
+      "Open pmkisan.gov.in and choose 'New Farmer Registration'.",
+      "Enter land and Aadhaar details and seed your bank account.",
+      "Complete eKYC online via OTP or at a CSC centre.",
+      "If payment is pending, check 'Know Your Status' (KYS) on the portal."
+    ],
+    "apply_url": "https://pmkisan.gov.in/",
+    "official_sources": [
+      {
+        "title": "PM-KISAN official portal",
+        "url": "https://pmkisan.gov.in/"
+      },
+      {
+        "title": "Revised PM-KISAN operational guidelines (official PDF)",
+        "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf"
+      },
+      {
+        "title": "PM-KISAN FAQ (official PDF)",
+        "url": "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf"
+      }
+    ],
+    "caveat_ta": "இறுதி தகுதியை மாநில அரசு நிலப் பதிவுகளின் அடிப்படையில் தீர்மானிக்கும். சந்தேகம் எனில் அருகிலுள்ள வருவாய் அலுவலகம் அல்லது CSC ஐ அணுகவும்.",
+    "caveat_en": "Final eligibility is decided by the state government from land records. When in doubt, contact your revenue office or a CSC.",
+    "keywords_ta": [
+      "கிசான்",
+      "விவசாயி",
+      "நிலம்",
+      "பட்டா",
+      "தொகை",
+      "விவசாய",
+      "pmkisan"
+    ],
+    "keywords_en": [
+      "pm kisan",
+      "pmkisan",
+      "farmer",
+      "land",
+      "patta",
+      "agriculture",
+      "6000"
+    ],
+    "last_verified": "2026-11-18"
+  },
+  {
+    "id": "pmmy",
+    "name_ta": "பிரதமர் முத்ரா யோஜனா",
+    "name_en": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "category_ta": "சிறு தொழில் கடன்",
+    "category_en": "Micro-enterprise credit",
+    "tagline_ta": "இணைய தானம் இல்லாமல் சிறு தொழிலுக்கு ₹20 லட்சம் வரை கடன்",
+    "tagline_en": "Collateral-free loans up to ₹20 lakh for micro enterprises",
+    "benefit_ta": [
+      "Shishu: ₹50,000 வரை | Kishor: ₹50,001–₹5 லட்சம் | Tarun: ₹5–₹10 லட்சம் | Tarun Plus: ₹10–₹20 லட்சம் (முந்தைய Tarun கடனை திருப்பி செலுத்தியவர்கள்).",
+      "பெண்கள், SHG உறுப்பினர்கள், கடைக்காரர்கள், கைவினைஞர்கள், மீனவர்கள், கோழி/பன்றி வளர்ப்பு போன்ற விவசாயம் சார்ந்த தொழில்கள் இதில் அடங்கும்."
+    ],
+    "benefit_en": [
+      "Shishu: up to ₹50,000 | Kishor: ₹50,001–₹5 lakh | Tarun: ₹5–10 lakh | Tarun Plus: ₹10–20 lakh (for earlier Tarun borrowers who repaid).",
+      "Women, SHG members, shopkeepers, artisans and agriculture-allied activities such as poultry, dairy and beekeeping are covered."
+    ],
+    "who_ta": "சிறு தொழில் தொடங்க அல்லது நடத்த விரும்பும் இந்திய குடிமக்கள், தனி நபர்கள் மற்றும் சுய உதவிக் குழுக்கள் (SHG).",
+    "who_en": "Indian individuals and self-help groups running or starting a small income-generating enterprise in manufacturing, trading, services or agriculture-allied activity.",
+    "eligibility_ta": [
+      "சிறு தொழிலுக்கான திட்டம் / வருமான மதிப்பீடு இருக்க வேண்டும்.",
+      "வங்கி / நிதி நிறுவனங்களில் தவறு (defaulter) இல்லாதவராக இருக்க வேண்டும்.",
+      "Tarun Plus க்கு முந்தைய Tarun கடனை வெற்றிகரமாக திருப்பி செலுத்தியிருக்க வேண்டும்.",
+      "கடன் முடிவு கடன் வழங்கும் வங்கி / NBFC / MFI இடம் உள்ளது."
+    ],
+    "eligibility_en": [
+      "A viable business plan or income projection is required.",
+      "Applicant must not be a defaulter with any bank or financial institution.",
+      "Tarun Plus requires successful repayment of an earlier Tarun loan.",
+      "Sanction is by the lending bank, NBFC or MFI."
+    ],
+    "exclusions_ta": [
+      "வங்கி / நிதி நிறுவனங்களில் கடன் தவறு உள்ளவர்கள்.",
+      "தொழில் தொடங்கும் நோக்கம் இல்லாமல் பொழுதுபோக்கு நோக்கில் கேட்கும் கடன்.",
+      "வாகனம் தனிப்பட்ட பயன்பாட்டிற்கு எனில் (வணிக பயன்பாடு மட்டுமே அனுமதி)."
+    ],
+    "exclusions_en": [
+      "Loan defaulters with any bank or financial institution.",
+      "Borrowers without a genuine income-generating business purpose.",
+      "Vehicles for personal use (only commercial use is covered)."
+    ],
+    "documents_ta": [
+      "ஆதார், PAN / Form 60, முகவரி சான்று (KYC)",
+      "வங்கிக் கணக்கு விவரம்",
+      "தொழில் திட்டம் / வருமான மதிப்பீடு, தேவையான உரிமங்கள்"
+    ],
+    "documents_en": [
+      "Aadhaar, PAN / Form 60 and address proof (KYC)",
+      "Bank account details",
+      "Business plan / projection and any required licences"
+    ],
+    "apply_steps_ta": [
+      "ஜன்சமர்த் (jansamarth.in) இல் ஆன்லைனில் விண்ணப்பிக்கவும்.",
+      "அல்லது அருகிலுள்ள வங்கி / Regional Rural Bank / CSC ஐ அணுகவும்.",
+      "SHG உறுப்பினர் எனில் உங்கள் குழு மூலம் வங்கியில் பரிந்துரை பெறவும்.",
+      "கடன் தொகை மற்றும் வட்டி கடன் வழங்கும் நிறுவனத்தால் நிர்ணயம் செய்யப்படும்."
+    ],
+    "apply_steps_en": [
+      "Apply online through Jan Samarth (jansamarth.in).",
+      "Or visit a nearby bank, Regional Rural Bank or CSC.",
+      "SHG members can apply through their group with a bank recommendation.",
+      "Loan amount and interest are set by the lending institution."
+    ],
+    "apply_url": "https://www.jansamarth.in/",
+    "official_sources": [
+      {
+        "title": "Department of Financial Services — PMMY (official)",
+        "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+      },
+      {
+        "title": "PIB — MUDRA loan categories, March 2026 (official)",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240159"
+      },
+      {
+        "title": "RBI — DAY-NRLM master circular, 1 April 2025 (official)",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12806"
+      }
+    ],
+    "caveat_ta": "இங்கே கொடுக்கப்பட்ட தகுதி பொதுவானத் தகவல். இறுதி அனுமதி மற்றும் கட்டணங்கள் கடன் வழங்கும் நிறுவனத்தைப் பொறுத்தது. கடன் வாங்குவதற்கு முன் வட்டி விகிதத்தை உறுதி செய்யவும்.",
+    "caveat_en": "This is general information. Sanction, terms and fees depend on the lender. Confirm the interest rate before borrowing.",
+    "keywords_ta": [
+      "முத்ரா",
+      "கடன்",
+      "தொழில்",
+      "shg",
+      "கடை",
+      "கைவினை",
+      "loan",
+      "pmmy"
+    ],
+    "keywords_en": [
+      "mudra",
+      "pmmy",
+      "loan",
+      "business",
+      "shg",
+      "enterprise",
+      "collateral"
+    ],
+    "last_verified": "2026-11-18"
+  },
+  {
+    "id": "daynrlm",
+    "name_ta": "டே-நேஷனல் ரூரல் லைவ்லிஹூட்ஸ் மிஷன் — பெண்கள் SHG",
+    "name_en": "DAY-NRLM — Women's Self Help Groups",
+    "category_ta": "குழு சேமிப்பு & கடன்",
+    "category_en": "SHG savings & credit",
+    "tagline_ta": "பெண்கள் சுய உதவிக் குழுவுக்கு ₹20,000–₹30,000 சுழல்நிதி மற்றும் வங்கி இணைப்பு",
+    "tagline_en": "₹20,000–₹30,000 revolving fund and bank linkage for women's SHGs",
+    "benefit_ta": [
+      "தகுதியுள்ள SHG க்கு ₹20,000–₹30,000 சுழல்நிதி (Revolving Fund).",
+      "குழு உறுப்பினருக்கு ₹1 லட்சம் வரை MUDRA கடன்; நன்கு செயல்படும் குழுவின் தகுதியுள்ள உறுப்பினருக்கு ₹10 லட்சம் வரை தனிநபர் கடன் வழங்க வங்கிகள் பரிசீலிக்கலாம்.",
+      "PMJDY கணக்கு உள்ள ஒவ்வொரு பெண் உறுப்பினருக்கும் குறைந்தது ₹5,000 overdose (OD) வசதி."
+    ],
+    "benefit_en": [
+      "A revolving fund of ₹20,000–₹30,000 for eligible SHGs.",
+      "MUDRA loan of up to ₹1 lakh for one member; banks may consider individual loans up to ₹10 lakh for members of mature, well-performing SHGs.",
+      "A minimum overdraft of ₹5,000 for every woman member with a PMJDY account."
+    ],
+    "who_ta": "கிராமப்புற பெண்கள் சுய உதவிக் குழுக்கள் (10–20 உறுப்பினர்கள்; சிறப்பு/தொலைதூர குழுக்களில் குறைந்தது 5).",
+    "who_en": "Rural women's self-help groups with 10–20 members (minimum 5 for special, remote or tribal-area groups).",
+    "eligibility_ta": [
+      "குழு குறைந்தது 3–6 மாதங்கள் செயலில் இருக்க வேண்டும்.",
+      "பஞ்சசூத்திரம்: அவ்வப்போது கூட்டம், சேமிப்பு, உள் கடன், திருப்பி செலுத்தல், கணக்கு பராமரிப்பு.",
+      "இதுவரை சுழல்நிதி பெற்றிருக்கக்கூடாது.",
+      "வங்கி கடனுக்கு குழு 6 மாதங்கள் செயலில் இருந்து NABARD தரநிலைகளில் தகுதி பெற வேண்டும்."
+    ],
+    "eligibility_en": [
+      "The group must have been active for at least 3–6 months.",
+      "Follow the Panchasutras: regular meetings, savings, internal lending, repayments and up-to-date books.",
+      "The group must not have received a revolving fund earlier.",
+      "For bank credit, the group should be active for at least 6 months and meet grading norms."
+    ],
+    "exclusions_ta": [
+      "கடன் தவறு செய்த உறுப்பினர்கள் உள்ள குழுக்கள் (willful defaulters).",
+      "கணக்கு பதிவுகள் இல்லாத, செயலற்ற குழுக்கள்."
+    ],
+    "exclusions_en": [
+      "Groups with wilful defaulters.",
+      "Inactive groups without proper books of accounts."
+    ],
+    "documents_ta": [
+      "குழு பதிவு / கூட்டம் மற்றும் சேமிப்பு பதிவு புத்தகங்கள்",
+      "உறுப்பினர் வங்கி கணக்கு (PMJDY) விவரங்கள்",
+      "கிராம / வட்டி மட்ட கூட்டமைப்பு பரிந்துரை"
+    ],
+    "documents_en": [
+      "Group records: meeting register and savings book",
+      "Member bank account (PMJDY) details",
+      "Recommendation from the village / block federation"
+    ],
+    "apply_steps_ta": [
+      "உங்கள் கிராமத்தில் உள்ள SHG அல்லது கூட்டமைப்பு (Federation) ஐ அணுகவும்.",
+      "குழு செயல்பாட்டை உறுதி செய்ய வட்டிப் பணியாளர் / BDO உதவி பெறவும்.",
+      "வங்கியில் SHG கடன் விண்ணப்பத்தை (Common Loan Application Form) சமர்ப்பிக்கவும்.",
+      "தேவையெனில் அருகிலுள்ள CSC அல்லது ஜன்சமர்த் மூலம் Mudra கடனுக்கு விண்ணப்பிக்கவும்."
+    ],
+    "apply_steps_en": [
+      "Contact your village SHG or its federation.",
+      "Get the group's activity verified by the block official / BDO.",
+      "Submit the common loan application form to a bank.",
+      "If needed, apply for a MUDRA loan through a CSC or Jan Samarth."
+    ],
+    "apply_url": "https://www.jansamarth.in/",
+    "official_sources": [
+      {
+        "title": "RBI — Master Circular: DAY-NRLM, 1 April 2025 (official)",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12806"
+      },
+      {
+        "title": "Department of Financial Services — PMMY (official)",
+        "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+      }
+    ],
+    "caveat_ta": "குழு தகுதி மற்றும் கடன் தொகையை வங்கியும் மாநில NRLM அலுவலகமும் பரிசீலித்து முடிவு செய்யும். இங்கே உள்ள தகவல் பொதுவான வழிகாட்டி.",
+    "caveat_en": "Group eligibility and loan amounts are decided by the bank and the state NRLM office. This is a general guide.",
+    "keywords_ta": [
+      "shg",
+      "குழு",
+      "சுய உதவி",
+      "சேமிப்பு",
+      "பெண்கள்",
+      "nrlm",
+      "கடன்"
+    ],
+    "keywords_en": [
+      "shg",
+      "self help group",
+      "nrlm",
+      "women",
+      "savings",
+      "revolving fund",
+      "group loan"
+    ],
+    "last_verified": "2026-11-18"
+  },
+  {
+    "id": "ssy",
+    "name_ta": "சுகன்யா சம்ரித்தி யோஜனா",
+    "name_en": "Sukanya Samriddhi Yojana (SSY)",
+    "category_ta": "மகள் கல்வி சேமிப்பு",
+    "category_en": "Girl-child savings",
+    "tagline_ta": "மகளின் கல்விக்காக 21 ஆண்டு சேமிப்பு — தற்போதைய வட்டி 8.2% (அறிவிக்கப்பட்டபடி)",
+    "tagline_en": "21-year savings account for a girl child — notified rate 8.2% (subject to revision)",
+    "benefit_ta": [
+      "அரசு உத்தரவாதமளிக்கும் சேமிப்பு; வட்டி விகிதம் அரசால் காலாண்டு அல்லது அவ்வப்போது மாற்றப்படும்.",
+      "18 வயதுக்குப் பிறகு உயர் கல்விக்கு 50% வரை திரும்பப் பெறலாம்; 21 ஆண்டுகளில் முதிர்ச்சி.",
+      "ஆதாய வரி சட்டம் 80C இன் கீழ் வரி சலுகை (விதிகள் பொறுத்து)."
+    ],
+    "benefit_en": [
+      "Government-backed savings; the interest rate is notified and revised by the government from time to time.",
+      "Up to 50% withdrawal after age 18 for higher education; matures after 21 years.",
+      "Tax benefit under Section 80C subject to the tax rules."
+    ],
+    "who_ta": "பிறந்ததிலிருந்து 10 வயதிற்குட்பட்ட இந்தியப் பெண் குழந்தை. பெற்றோர் அல்லது சட்டபூர்வ பாதுகாவலர் கணக்கைத் திறக்கலாம்.",
+    "who_en": "An Indian girl child from birth up to age 10; opened and operated by a parent or legal guardian until she turns 18.",
+    "eligibility_ta": [
+      "ஒரு குழந்தைக்கு ஒரு கணக்கு மட்டும்.",
+      "குடும்பத்தில் அதிகபட்சம் இரண்டு குழந்தைகளுக்கு கணக்கு (இரட்டையர்கள் / முப்பட்டினர்கள் விதிவிலக்கு).",
+      "கணக்கை இந்தியாவில் எந்த அஞ்சல் நிலையத்திற்கும் மாற்றலாம்.",
+      "குறைந்தபட்ச தொடக்க தொகை ₹250; ஒவ்வொரு நிதியாண்டிலும் குறைந்தது ₹250, அதிகபட்சம் ₹1,50,000 வரை செலுத்தலாம்."
+    ],
+    "eligibility_en": [
+      "Only one account per girl child.",
+      "Maximum two accounts per family (exception for twins or triplets).",
+      "The account can be transferred to any post office or authorised bank in India.",
+      "Minimum initial deposit ₹250; at least ₹250 and at most ₹1,50,000 per financial year."
+    ],
+    "exclusions_ta": [
+      "10 வயது நிரம்பிய பெண் குழந்தைக்கு புதிய கணக்கு தொடங்க முடியாது.",
+      "வருட வரம்பு ₹1,50,000 க்கு மேல் செலுத்திய தொகைக்கு வட்டி கிடைக்காது."
+    ],
+    "exclusions_en": [
+      "A new account cannot be opened for a girl aged 10 or above.",
+      "Deposits above ₹1,50,000 in a year do not earn interest."
+    ],
+    "documents_ta": [
+      "கணக்கு திறக்கும் படிவம் (அஞ்சல் நிலையம் / வங்கியில் கிடைக்கும்)",
+      "மகளின் பிறப்புச் சான்றிதழ்",
+      "பாதுகாவலரின் ஆதார் / PAN அல்லது Form 60, முகவரி சான்று",
+      "தொடக்க தொகை ₹250"
+    ],
+    "documents_en": [
+      "Account opening form (available at post office / bank)",
+      "Girl child's birth certificate",
+      "Guardian's Aadhaar / PAN or Form 60, and address proof",
+      "Initial deposit of ₹250"
+    ],
+    "apply_steps_ta": [
+      "அருகிலுள்ள அஞ்சல் நிலையம் அல்லது அங்கீகாரம் பெற்ற வங்கிக் கிளைக்கு செல்லவும்.",
+      "படிவம், பிறப்புச் சான்றிதழ், KYC ஆவணங்களை சமர்ப்பிக்கவும்.",
+      "₹250 தொடக்க தொகை செலுத்தி கணக்கு தொடங்கவும்.",
+      "வட்டி விகிதம் மாறக்கூடும் என்பதால் அஞ்சல் நிலையத்தில் உறுதி செய்யவும்."
+    ],
+    "apply_steps_en": [
+      "Visit the nearest post office or an authorised bank branch.",
+      "Submit the form, birth certificate and KYC documents.",
+      "Deposit ₹250 to open the account.",
+      "Confirm the current interest rate at the counter, as rates can change."
+    ],
+    "apply_url": "https://www.indiapost.gov.in/banking-services/saving",
+    "official_sources": [
+      {
+        "title": "India Post — Small Savings Schemes (official)",
+        "url": "https://www.indiapost.gov.in/banking-services/saving"
+      },
+      {
+        "title": "PIB Explainer — SSY, 21 January 2026 (official)",
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=157019"
+      },
+      {
+        "title": "National Portal of India — Sukanya Samriddhi Yojana (official)",
+        "url": "https://www.india.gov.in/sukanya-samriddhi-yojna"
+      }
+    ],
+    "caveat_ta": "வட்டி விகிதம் மற்றும் வரி விதிகள் மாறலாம். இறுதி விவரங்களுக்கு இந்தியா போஸ்ட் / அரசு அறிவிப்புகளைப் பார்க்கவும். இங்கே விண்ணப்பங்கள் பெறப்படுவதில்லை.",
+    "caveat_en": "Interest rates and tax rules can change. Always check India Post or official government notices for final details. This app does not accept applications.",
+    "keywords_ta": [
+      "சுகன்யா",
+      "சம்ரித்தி",
+      "மகள்",
+      "கல்வி",
+      "சேமிப்பு",
+      "பெண் குழந்தை",
+      "sukanya"
+    ],
+    "keywords_en": [
+      "sukanya",
+      "samriddhi",
+      "ssy",
+      "girl child",
+      "savings",
+      "education",
+      "post office"
+    ],
+    "last_verified": "2026-11-18"
+  }
+]

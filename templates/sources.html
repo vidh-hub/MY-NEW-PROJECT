@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>{{ labels.sources_title }}</h1>
+<p class="lead">{{ labels.sources_text }}</p>
+
+{% for scheme in schemes %}
+  <section class="panel source-group">
+    <h2>{{ scheme['name_' ~ lang] }}</h2>
+    <ul class="source-list">
+      {% for src in scheme['official_sources'] %}
+        <li>
+          <a href="{{ src['url'] }}" target="_blank" rel="noopener noreferrer">{{ src['title'] }}</a>
+          <span class="domain">{{ src['url'].split('/')[2] }}</span>
+        </li>
+      {% endfor %}
+      <li>
+        <a href="{{ scheme['apply_url'] }}" target="_blank" rel="noopener noreferrer">{{ labels.apply_official }}</a>
+        <span class="domain">{{ scheme['apply_url'].split('/')[2] }}</span>
+      </li>
+    </ul>
+  </section>
+{% endfor %}
+
+<p><a href="{{ url_for('home', lang=lang) }}">← {{ labels.back_home }}</a></p>
+{% endblock %}

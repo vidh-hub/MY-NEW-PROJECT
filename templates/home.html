@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <p class="eyebrow">{{ labels.app_sub }}</p>
+  <h1>{{ labels.hero_title }}</h1>
+  <p class="lead">{{ labels.hero_text }}</p>
+</section>
+
+<section class="panel" aria-labelledby="search-heading">
+  <h2 id="search-heading">{{ labels.search_label }}</h2>
+  <form class="search-row" method="get" action="{{ url_for('home') }}">
+    <input type="hidden" name="lang" value="{{ lang }}">
+    <label class="sr-only" for="q">{{ labels.search_label }}</label>
+    <input id="q" name="q" type="search" value="{{ query }}" placeholder="{{ labels.search_label }}" autocomplete="off">
+    <button type="submit">{{ labels.search_button }}</button>
+  </form>
+</section>
+
+<section class="panel" aria-labelledby="ask-heading">
+  <h2 id="ask-heading">{{ labels.assistant_title }}</h2>
+  <p class="muted">{{ labels.assistant_text }}</p>
+  <form id="ask-form" class="ask-row">
+    <label class="sr-only" for="a-q">{{ labels.question }}</label>
+    <input id="a-q" name="q" type="search" placeholder="{{ labels.assistant_text }}" autocomplete="off" required>
+    <button type="submit">{{ labels.ask_button }}</button>
+  </form>
+  <div id="ask-result" class="answer-box" aria-live="polite" hidden></div>
+</section>
+
+<section aria-labelledby="schemes-heading">
+  <h2 id="schemes-heading">
+    {% if query %}{{ labels.results_for }} — {{ query }}{% else %}{{ labels.all_schemes }}{% endif %}
+    <span class="count">{{ results|length }}</span>
+  </h2>
+
+  {% if not results %}
+    <p class="empty">{{ labels.no_results }}</p>
+  {% endif %}
+
+  <div class="grid">
+    {% for scheme in results %}
+      <article class="card">
+        <p class="tag">{{ scheme['category_' ~ lang] }}</p>
+        <h3>{{ scheme['name_' ~ lang] }}</h3>
+        <p class="tagline">{{ scheme['tagline_' ~ lang] }}</p>
+        <dl class="mini">
+          <dt>{{ labels.benefit }}</dt><dd>{{ scheme['benefit_' ~ lang][0] }}</dd>
+          <dt>{{ labels.who }}</dt><dd>{{ scheme['who_' ~ lang] }}</dd>
+        </dl>
+        <a class="cta" href="{{ url_for('scheme_detail', sid=scheme['id'], lang=lang) }}">{{ labels.details }} →</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('ask-form');
+  const resultBox = document.getElementById('ask-result');
+  const lang = {{ lang|tojson }};
+  const loadingText = {{ labels.loading|tojson }};
+
+  function renderAnswer(data) {
+    resultBox.replaceChildren();
+
+    const title = document.createElement('h3');
+    title.textContent = data.title;
+    resultBox.appendChild(title);
+
+    const list = document.createElement('ul');
+    (data.bullets || []).forEach(function (line) {
+      const li = document.createElement('li');
+      li.textContent = line;
+      list.appendChild(li);
+    });
+    resultBox.appendChild(list);
+
+    const caveat = document.createElement('p');
+    caveat.className = 'caveat';
+    caveat.textContent = data.caveat;
+    resultBox.appendChild(caveat);
+
+    if (data.official_url) {
+      const p = document.createElement('p');
+      const a = document.createElement('a');
+      a.href = data.official_url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = {{ labels.apply_official|tojson }};
+      p.appendChild(a);
+      resultBox.appendChild(p);
+    }
+
+    const src = document.createElement('p');
+    src.className = 'source-line';
+    src.textContent = (data.sources || []).join('  •  ');
+    resultBox.appendChild(src);
+
+    resultBox.hidden = false;
+  }
+
+  form.addEventListener('submit', async function (event) {
+    event.preventDefault();
+    const question = document.getElementById('a-q').value.trim();
+    if (!question) return;
+    resultBox.hidden = false;
+    resultBox.textContent = loadingText;
+    try {
+      const response = await fetch('{{ url_for("ask") }}', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({q: question, lang: lang})
+      });
+      renderAnswer(await response.json());
+    } catch (error) {
+      resultBox.textContent = String(error);
+    }
+  });
+</script>
+{% endblock %}
